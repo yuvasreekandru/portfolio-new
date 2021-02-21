@@ -26,7 +26,9 @@ header{
 }
 .navbar{
     width:100%;
-    border-bottom :3px solid #0faddd;
+        border-bottom :3px solid #dd0470;
+
+    /* border-bottom :3px solid #0faddd; */
     background-color: black;
     font-size: 18px;    
 }
@@ -83,14 +85,16 @@ font-size: 18px;
    display: flex;
    align-items: center;
    flex-direction: column;
-   background-color: rgba(23,209,172,0.80);
+   background-color: rgba(45, 46, 46, 0.8);
+
+   /* background-color: rgba(23,209,172,0.80); */
    display:none;    
   }
  .overlay-text h2{
   color: #FFFFFF;
  }
  .overlay-text h2{
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   margin:70px 0 0 0px;
   padding: 0px;
   letter-spacing: 2px;
@@ -99,6 +103,34 @@ font-size: 18px;
   font-size: 1.2rem;
   color: #FFFFFF;
  }
+button a:link{
+   text-decoration: none;  
+ }
+ button a{
+     color:black;
+     font-weight: 500;
+ }
+ button a:hover{
+    color:white;
+}
+ button{
+    width:150px;
+    padding:3px 0px;
+    border-radius: 2px;
+    outline-style: none;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 2s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+ button:hover{
+    background-color: #dd0470;
+    transition: ease all 0.5s;
+ }
+
  #p-card:hover .overlay-text{
   display: flex;
   align-items: center;
